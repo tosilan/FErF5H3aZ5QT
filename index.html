@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; URL='https://esm.f5.si/'"> <!-- リダイレクト先を指定 -->
+    <link rel="canonical" href="https://esm.f5.si/">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet"> <!-- 角が丸いフォント -->
+    <title>日本向け無制限eSIMサービス</title>
+    <meta name="description" content="日本国内で使い放題、速度低下なし！面倒なSIMカードの挿入や交換は不要で、デュアルSIMにも対応しています。オンラインで簡単に手続きができ、最短5分で発送。1日からすぐに利用可能で、au、docomo、SoftBankの3大キャリアに対応しています。今すぐお申し込みいただき、快適な通信環境を手に入れましょう！">
+    <link rel="canonical" href="https://earthsim.f5.si">
+
+    <meta property="og:title" content="日本向け無制限eSIMサービス" />
+    <meta property="og:description" content="日本国内で使い放題、速度低下なし！面倒なSIMカードの挿入や交換は不要で、デュアルSIMにも対応しています。オンラインで簡単に手続きができ、最短5分で発送。1日からすぐに利用可能で、au、docomo、SoftBankの3大キャリアに対応しています。今すぐお申し込みいただき、快適な通信環境を手に入れましょう！" />
+    <meta property="og:site_name" content="EarthSIM" />
+    <meta property="og:url" content="https://earthsim.f5.si/index.html" />
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:image" content="https://earthsim.f5.si/images/logo.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <script async type="application/json+ld">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "EarthSIM",
+            "url": "https://earthsim.f5.si",
+            "logo": "https://earthsim.f5.si/images/logo.png"
+        }
+    </script>
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* 縦に配置 */
+            justify-content: center; /* 垂直方向に中央揃え */
+            align-items: center; /* 水平方向に中央揃え */
+            height: 100vh; /* ビューポートの高さを100%に */
+            margin: 0;
+            background-color: #ffffff; /* 背景を白に */
+            font-family: 'Poppins', sans-serif; /* フォントを設定 */
+        }
+        .loader {
+            display: flex;
+            align-items: flex-end; /* バーを下に揃える */
+            height: 80px; /* ローディング全体の高さ */
+            margin-bottom: 20px; /* テキストとのスペース */
+        }
+        .bar {
+            width: 10px; /* 各バーの幅 */
+            height: 40px; /* 各バーの初期高さ */
+            margin: 0 5px; /* バーの間隔 */
+            background-color: rgba(0, 153, 255, 1); /* 指定された青色 */
+            animation: grow 1s ease-in-out infinite; /* アニメーションを設定 */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), inset 0 -4px 10px rgba(255, 255, 255, 0.3); /* 影と反射効果 */
+            border-radius: 5px; /* 角を丸く */
+        }
+        @keyframes grow {
+            0%, 100% {
+                height: 40px; /* 初期高さ */
+            }
+            50% {
+                height: 80px; /* 最大高さ */
+            }
+        }
+        /* 各バーに異なる遅延を設定 */
+        .bar:nth-child(1) { animation-delay: 0s; }
+        .bar:nth-child(2) { animation-delay: 0.1s; }
+        .bar:nth-child(3) { animation-delay: 0.2s; }
+        .bar:nth-child(4) { animation-delay: 0.3s; }
+        .bar:nth-child(5) { animation-delay: 0.4s; }
+        .bar:nth-child(6) { animation-delay: 0.5s; }
+        .bar:nth-child(7) { animation-delay: 0.6s; }
+        .bar:nth-child(8) { animation-delay: 0.7s; }
+        .bar:nth-child(9) { animation-delay: 0.8s; }
+
+        .loading-text {
+            font-size: 24px; /* テキストのサイズ */
+            color: #333; /* テキストの色 */
+            text-align: center; /* テキストを中央揃え */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* テキストに影を追加 */
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="loading-text">読み込み中...</div>
+</body>
+</html>
